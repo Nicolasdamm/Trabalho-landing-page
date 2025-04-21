@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #1b1a1a;
+    padding: 20px;
+  }
+  
+  header {
+    background: #4097df;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: #1a1919;
+    border-radius: 5px;
+  }
+  
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+#servicos {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#servicos h2, 
+#servicos h3 {
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#servicos p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#servicos ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  font-size: 1em;
+  color: #444;
+}
+
+#servicos li {
+  margin-bottom: 10px;
+}
+
+/* Estilo das tabelas de preços */
+#servicos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+#servicos th,
+#servicos td {
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+#servicos th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #333;
+}
+
+#servicos tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#servicos tbody tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+    
+     <header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./curriculo.html">Currículo</a></li>
+        <li><a href="https://github.com/Nicolasdamm" target="_blank">GitHub</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <section id="servicos">
+    <h2>Serviços</h2>
+    <p>Ofereço construção de sites personalizados para:</p>
+    <ul>
+      <li>Loja de Roupa</li>
+      <li>Academia</li>
+      <li>Livraria</li>
+      <li>Escola de futebol</li>
+      <li>Time de vôlei</li>
+    </ul>
+
+    <h3>Valores para sites estáticos</h3>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Número de Páginas</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 a 2 páginas</td>
+            <td>R$ 250,00</td>
+          </tr>
+          <tr>
+            <td>3 a 5 páginas</td>
+            <td>R$ 400,00</td>
+          </tr>
+          <tr>
+            <td>Mais de 5 páginas</td>
+            <td>R$ 500,00+</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <h3>Valores para sites dinâmicos/avançados</h3>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Número de Páginas</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1 a 2 páginas</td>
+          <td>R$ 500,00</td>
+        </tr>
+        <tr>
+          <td>3 a 5 páginas</td>
+          <td>R$ 800,00</td>
+        </tr>
+        <tr>
+          <td>Mais de 5 páginas</td>
+          <td>R$ 1000,00+</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
